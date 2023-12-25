@@ -35,20 +35,20 @@ The Patient resource represents individual patients in the system. Each patient 
 
 ## RESTful APIs
 ### Doctor Endpoints
-GET /doctors: Retrieve a list of all doctors.
-GET /doctors/{id}: Retrieve details of a specific doctor.
-POST /doctors: Add a new doctor to the system.
-PUT /doctors/{id}: Update details of a specific doctor.
-DELETE /doctors/{id}: Delete a specific doctor.
+1. GET /doctors: Retrieve a list of all doctors.
+2. GET /doctors/{id}: Retrieve details of a specific doctor.
+4. POST /doctors: Add a new doctor to the system.
+6. PUT /doctors/{id}: Update details of a specific doctor.
+7. DELETE /doctors/{id}: Delete a specific doctor.
 
 ### Patient Endpoints
-GET /patients: Retrieve a list of all patients.
-GET /patients/{id}: Retrieve details of a specific patient.
-POST /patients: Add a new patient to the system.
-PUT /patients/{id}: Update details of a specific patient.
-DELETE /patients/{id}: Delete a specific patient.
+1. GET /patients: Retrieve a list of all patients.
+2. GET /patients/{id}: Retrieve details of a specific patient.
+3. POST /patients: Add a new patient to the system.
+4. PUT /patients/{id}: Update details of a specific patient.
+5. DELETE /patients/{id}: Delete a specific patient.
 
 ## Testing the APIs
-Open the project in Eclipse.
-Run the application (Application.java).
-Use Postman to test the listed APIs with the provided endpoints.
+- Open the project in Eclipse.
+- Run the application (Application.java).
+- Use Postman to test the listed APIs with the provided endpoints.
