@@ -19,33 +19,6 @@ The Patient resource represents individual patients in the system. Each patient 
 2. H2 Database: In-memory database for development and testing.
 3. Spring Data JPA: Simplifies the data access layer.
 
-Doctor-Patient-Management-System-API
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── controllers
-│   │   │   │   ├── DoctorController.java
-│   │   │   │   ├── PatientController.java
-│   │   │   ├── models
-│   │   │   │   ├── Doctor.java
-│   │   │   │   ├── Patient.java
-│   │   │   ├── repositories
-│   │   │   │   ├── DoctorRepository.java
-│   │   │   │   ├── PatientRepository.java
-│   │   │   ├── services
-│   │   │   │   ├── DoctorService.java
-│   │   │   │   ├── PatientService.java
-│   │   │   └── Application.java
-│   │   ├── resources
-│   │   │   ├── application.properties
-│   └── test
-│       └── java
-│           └── ... (test classes)
-└── target
-    └── ... (compiled classes and JAR files)
-
-
 ## File Structure
 - com.ms.dpms
 - com.ms.dpms.controllers
@@ -59,3 +32,23 @@ Doctor-Patient-Management-System-API
   - PatientEntity.java
 - com.ms.dpms.repositories
 - com.ms.dpms.error
+
+## RESTful APIs
+### Doctor Endpoints
+GET /doctors: Retrieve a list of all doctors.
+GET /doctors/{id}: Retrieve details of a specific doctor.
+POST /doctors: Add a new doctor to the system.
+PUT /doctors/{id}: Update details of a specific doctor.
+DELETE /doctors/{id}: Delete a specific doctor.
+
+### Patient Endpoints
+GET /patients: Retrieve a list of all patients.
+GET /patients/{id}: Retrieve details of a specific patient.
+POST /patients: Add a new patient to the system.
+PUT /patients/{id}: Update details of a specific patient.
+DELETE /patients/{id}: Delete a specific patient.
+
+## Testing the APIs
+Open the project in Eclipse.
+Run the application (Application.java).
+Use Postman to test the listed APIs with the provided endpoints.
