@@ -21,7 +21,8 @@ The Patient resource represents individual patients in the system. Each patient 
 3. Spring Data JPA: Simplifies the data access layer.
 
 ## File Structure
-![image](https://github.com/milansingh52/Doctor-Patients-Management-API/assets/111845982/d721fbd1-516f-4f7e-b9f9-c7659b3f1db1)
+![STRUCTURE](https://github.com/milansingh52/Doctor-Patients-Management-API/assets/111845982/511fb61f-1fba-4eb3-93d6-8f3f7aee1e63)
+
 
 ## RESTful APIs
 #### Doctor Endpoints
