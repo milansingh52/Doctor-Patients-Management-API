@@ -1,5 +1,6 @@
 ## Overview
-The Doctor-Patient Management System API is to manage patient and doctor records efficiently. This documentation provides details on project structure, resources, tools used, dependencies, and instructions for testing the RESTful APIs.
+- The Doctor-Patient Management System API is to manage patient and doctor records efficiently.
+- This documentation provides details on project structure, resources, tools used, dependencies, and instructions for testing the RESTful APIs.
 
 ## Resources
 1. Doctor: 
@@ -34,14 +35,14 @@ The Patient resource represents individual patients in the system. Each patient 
 - com.ms.dpms.error
 
 ## RESTful APIs
-### Doctor Endpoints
+#### Doctor Endpoints
 1. GET /doctors: Retrieve a list of all doctors.
 2. GET /doctors/{id}: Retrieve details of a specific doctor.
 4. POST /doctors: Add a new doctor to the system.
 6. PUT /doctors/{id}: Update details of a specific doctor.
 7. DELETE /doctors/{id}: Delete a specific doctor.
 
-### Patient Endpoints
+#### Patient Endpoints
 1. GET /patients: Retrieve a list of all patients.
 2. GET /patients/{id}: Retrieve details of a specific patient.
 3. POST /patients: Add a new patient to the system.
