@@ -1,28 +1,15 @@
 package com.ms.dpms.services;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-
 import com.ms.dpms.models.DoctorEntity;
 import com.ms.dpms.repositories.DoctorRepository;
 
 @Service
 public class DoctorService 
-{
-//	List<DoctorEntity> list;
-//	
-//	public DoctorService() 
-//    {
-//		list = new ArrayList<>();
-//		list.add(new DoctorEntity(125, "Ram", "ram@gmail.com","Male"));
-//		list.add(new DoctorEntity(130, "Shyam", "shyam@gmail.com", "Male"));
-//	}
-	
+{	
 	@Autowired
 	private DoctorRepository doctorRepository;
 	

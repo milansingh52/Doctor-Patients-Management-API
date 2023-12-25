@@ -7,9 +7,9 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="Doctor")
+@Table(name="Patient")
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
-public class DoctorEntity 
+public class PatientEntity 
 {
 	@Id
 	private long id;
@@ -17,9 +17,9 @@ public class DoctorEntity
 	private String email;
 	private String gender;
 	
-	public DoctorEntity() {}
+	public PatientEntity() {}
 	
-	public DoctorEntity(long id, String name, String email, String gender) {
+	public PatientEntity(long id, String name, String email, String gender) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -53,6 +53,6 @@ public class DoctorEntity
 	}
 	@Override
 	public String toString() {
-		return "DoctorEntity [id=" + id + ", name=" + name + ", email=" + email + ", gender=" + gender + "]";
+		return "PatientEntity [id=" + id + ", name=" + name + ", email=" + email + ", gender=" + gender + "]";
 	}
 }

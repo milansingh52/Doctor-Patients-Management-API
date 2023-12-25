@@ -59,7 +59,7 @@ public class DoctorController
         }
     }
 	
-	// add doctor
+	// add doctor details
 	@PostMapping("/doctors")
     public ResponseEntity<Object> addDoctor(@RequestBody DoctorEntity doctor) 
 	{
@@ -75,11 +75,29 @@ public class DoctorController
         }
     }
 	
-	// update doctor
+	// update doctor details
 	@PutMapping("/doctors")
-	public DoctorEntity updateDoctor(@RequestBody DoctorEntity doctor)
+	public ResponseEntity<Object> updateDoctor(@RequestBody DoctorEntity doctor) 
 	{
-		return this.doctorService.updateDoctor(doctor);
+	    try 
+	    {
+	        DoctorEntity updatedDoctor = this.doctorService.updateDoctor(doctor);
+	        
+	        if (updatedDoctor != null) 
+	        {
+	            return new ResponseEntity<>(updatedDoctor, HttpStatus.OK);
+	        } 
+	        else 
+	        {
+	            String errorMessage = "Doctor not found with the given ID.";
+	            return new ResponseEntity<>(errorMessage, HttpStatus.NOT_FOUND);
+	        }
+	    } 
+	    catch (Exception e) 
+	    {
+	        String errorMessage = "Failed to update doctor. Please check your input.";
+	        return new ResponseEntity<>(errorMessage, HttpStatus.BAD_REQUEST);
+	    }
 	}
 	
 	// delete doctor
