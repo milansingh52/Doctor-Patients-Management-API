@@ -43,3 +43,7 @@ The Patient resource represents individual patients in the system. Each patient 
 - Open the project in Eclipse.
 - Run the application (Application.java).
 - Use Postman to test the listed APIs with the provided endpoints.
+
+- ![get_doctors](https://github.com/milansingh52/Doctor-Patients-Management-API/assets/111845982/27a086ff-bfe3-4226-9d06-9f485b864242)
+- ![get_patient](https://github.com/milansingh52/Doctor-Patients-Management-API/assets/111845982/8d731f99-2df3-402c-8618-2de0c809281e)
+  
