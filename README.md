@@ -3,17 +3,17 @@
 - This documentation provides details on project structure, resources, tools used, dependencies, and instructions for testing the RESTful APIs.
 
 ## Resources
-<h1 color='red'>1. Doctor:</h1> 
+1. DOCTOR:- 
 The Doctor resource represents healthcare professionals within the system. Each doctor has a unique identifier (id) and includes details such as name, email, gender etc.
 
-1. Patient: 
+1. PATIENT:- 
 The Patient resource represents individual patients in the system. Each patient has a unique identifier (id) and includes essential information such as name, email, gender, etc.
 
 ## Tools
-1. Eclipse: Integrated Development Environment (IDE) for Java development.
-2. Spring Boot: Framework for building Java-based enterprise applications.
-3. Postman: API development and testing tool.
-4. H2 Console: Database management tool for H2 Database.
+1. Eclipse:-     Integrated Development Environment (IDE) for Java development.
+2. Spring Boot:- Framework for building Java-based enterprise applications.
+3. Postman:-     API development and testing tool.
+4. H2 Console:-  Database management tool for H2 Database.
 
 ## Dependencies
 1. Spring Web: Provides HTTP request handling.
