@@ -21,18 +21,7 @@ The Patient resource represents individual patients in the system. Each patient 
 3. Spring Data JPA: Simplifies the data access layer.
 
 ## File Structure
-- com.ms.dpms
-- com.ms.dpms.controllers
-  - DoctorController.java
-  - PatientController.java
-- com.ms.dpms.services
-  - DoctorServices.java
-  - PatientServices.java
-- com.ms.dpms.models
-  - DoctorEntity.java
-  - PatientEntity.java
-- com.ms.dpms.repositories
-- com.ms.dpms.error
+![image](https://github.com/milansingh52/Doctor-Patients-Management-API/assets/111845982/d721fbd1-516f-4f7e-b9f9-c7659b3f1db1)
 
 ## RESTful APIs
 #### Doctor Endpoints
