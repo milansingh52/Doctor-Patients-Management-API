@@ -3,7 +3,7 @@
 - This documentation provides details on project structure, resources, tools used, dependencies, and instructions for testing the RESTful APIs.
 
 ## Resources
-<h1>1. Doctor:</h1> 
+<h1 color='red'>1. Doctor:</h1> 
 The Doctor resource represents healthcare professionals within the system. Each doctor has a unique identifier (id) and includes details such as name, email, gender etc.
 
 1. Patient: 
