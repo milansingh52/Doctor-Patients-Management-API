@@ -1,11 +1,11 @@
-# Overview
+## Overview
 The Doctor-Patient Management System API is to manage patient and doctor records efficiently. This documentation provides details on project structure, resources, tools used, dependencies, and instructions for testing the RESTful APIs.
 
-# Resources
-## Doctor
+## Resources
+1. Doctor
 The Doctor resource represents healthcare professionals within the system. Each doctor has a unique identifier (id) and includes details such as name, email, gender etc.
 
-## Patient
+1. Patient
 The Patient resource represents individual patients in the system. Each patient has a unique identifier (id) and includes essential information such as name, email, gender, etc.
 
 ## Resource
